@@ -7,11 +7,11 @@ k = 0
 for i in range(1, fila+1):
 
     for espaco in range(1, (fila-i)+1):
-        print(end="  ")
+        print(end="")
 
     while k != (2*i-1):
 
-        print("* ", end = " ")
+        print("*", end = "")
 
         k += 1
 
